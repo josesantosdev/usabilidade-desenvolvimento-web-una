@@ -4,8 +4,61 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="./scr/main.js"></script>
+    <link rel="stylesheet" href="../style.css" />
+
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+        }
+
+        .container img{
+            margin: 0.6em ;
+            height: 78vh;
+        }
+
+        .dados{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+
+        }
+
+       
+        img{
+            width: 450px;
+        }
+
+        h2{
+            margin-bottom: 2em;
+        }
+        table{
+            font-size: 15px;
+            margin: 1em 1em;
+            border: 1px double white;
+            border-radius: 5px;
+            padding: 0.5em;
+            margin-bottom: 2em;
+            background-color: #151515;
+        }
+
+        select{
+            width: 40%;
+            height: 30px;
+            margin-bottom: 2em;
+        }
+
+        td{
+            border: 1px double white;
+            border-radius: 5px;
+            padding: 1em;
+        }
+
+    </style>
   </head>
   <body>
    
@@ -14,39 +67,20 @@
         <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M414.8 40.79L286.8 488.8C281.9 505.8 264.2 515.6 247.2 510.8C230.2 505.9 220.4 488.2 225.2 471.2L353.2 23.21C358.1 6.216 375.8-3.624 392.8 1.232C409.8 6.087 419.6 23.8 414.8 40.79H414.8zM518.6 121.4L630.6 233.4C643.1 245.9 643.1 266.1 630.6 278.6L518.6 390.6C506.1 403.1 485.9 403.1 473.4 390.6C460.9 378.1 460.9 357.9 473.4 345.4L562.7 256L473.4 166.6C460.9 154.1 460.9 133.9 473.4 121.4C485.9 108.9 506.1 108.9 518.6 121.4V121.4zM166.6 166.6L77.25 256L166.6 345.4C179.1 357.9 179.1 378.1 166.6 390.6C154.1 403.1 133.9 403.1 121.4 390.6L9.372 278.6C-3.124 266.1-3.124 245.9 9.372 233.4L121.4 121.4C133.9 108.9 154.1 108.9 166.6 121.4C179.1 133.9 179.1 154.1 166.6 166.6V166.6z"/></svg>
         <h1>CATÁLOGO DE FILMES</h1>
       </div>
-      <h2>Filmes em cartaz</h2>
       <div class="container">
-        <div class="col-3">
-          <a href="./paginas/01.html"><img name="cMarvel" src="./img/01.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/02.html"><img name="Aladin" src="./img/02.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/03.html"><img name="Bumble" src="./img/03.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/04.html"><img name="" src="./img/04.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/05.html"><img name="" src="./img/05.jpeg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/06.html"><img name="" src="./img/06.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/07.html"><img name="" src="./img/07.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/08.html"><img name="" src="./img/08.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/09.html"><img name="" src="./img/09.jpg" alt="" /></a>
-        </div>
-        <div class="col-3">
-          <a href="./paginas/10.html"><img src="./img/10.jpg" alt="" /></a>
-        </div>
-      </div>
+        <img name="cMarvel" src="../img/09.jpg" alt="" />
+        <div class="dados">
+        <h2>Valor do Ingresso: R$ 15,00</h2>
+        <table>
+            <tr><td>Sala 1</td><td>Sala 2</td></tr>
+        </table>
+        <select name="" id="">
+            <option value="sala1">2D</option>
+            <option value="sala1">3D</option>
+        </select>
+    </div>       
+
+    </div>
       <div class="footer">
         <div class="address">
           <p>Belo Horizonte - Copyleft</p>
