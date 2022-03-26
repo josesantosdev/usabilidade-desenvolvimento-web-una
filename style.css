@@ -23,14 +23,14 @@ main{
     
 }
 .logo{
-    width: 5.71em;
+    width: 4.71em;
     fill:white;
     margin: 0em 1em;
 }
 
 h1{
     color:white;
-    font-size: 2.14em;
+    font-size: 1.98em;
     font-family: sans-serif;
    
 }
@@ -53,8 +53,8 @@ h1:hover{
 }
 
 img{
-    width: 17.85em;
-    height: 26.42em;
+    width: 13.77em;
+    height: 19.82em;
 }
 
 .col-3{
@@ -70,7 +70,7 @@ img:hover{
     display: flex;
     background-color:#F10086;
     width: 100%;
-    height: 5em;
+    height: 2em;
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.29em;
