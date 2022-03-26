@@ -11,12 +11,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 75px;
+    width: 80em;
+    height: 5.35em;
 }
 
+
 main{
-    width: 80rem;
+    width: 80em;
     margin: 0 auto;
+    
 }
 
 h1{
@@ -29,24 +32,66 @@ h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
     background-color: #F582A7;
+    padding-bottom: 1.3em;
+    padding-top: 1.3em;
+    width: 100%;
 
 }
 
 img{
-    width: 250px;
-    height: 370px;
-    align-items: center;
-    justify-content: center;
-    margin: 0.6em 0.6em;
+    width: 17.85em;
+    height: 26.42em;
+}
 
-    
+.col-3{
+    margin: 0.6em 0.6em;
+}
+
+img:hover{
+    box-shadow: 5px 5px 5px #F10086;
+    transition-duration:0.4s;
 }
 
 .footer{
+    display: flex;
     background-color:#F10086;
     width: 100%;
-    height: 70px;
+    height: 5em;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
+
+.address{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.social{
+    display: flex;
+}
+
+.social ol{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.social li{
+    display: inline;
+    padding-left: 4em;
+}
+
+.social a{
+    text-decoration: none;
+    color: white;
+}
+
+.social a:hover{
+    text-decoration: none;
+    color: blue;
+}
+
 
