@@ -23,8 +23,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-start;
             color: white;
+            padding: 0;
+            margin: 0;
 
         }
 
@@ -33,15 +35,28 @@
             width: 450px;
         }
 
-        h2{
+        h3{
             margin-bottom: 2em;
+        }
+
+        h3{
+          font-size: 2em;
+          color: white;
+        }
+        h4{
+          font-size: 2em;
+          color: white;
+        }
+        h4:hover{
+          text-shadow: 3px 3px 3px black;
+        }
+        h4 a:visited{
+          color:white;
         }
         table{
             font-size: 15px;
-            margin: 1em 1em;
             border: 1px double white;
             border-radius: 5px;
-            padding: 0.5em;
             margin-bottom: 2em;
             background-color: #151515;
         }
@@ -70,7 +85,7 @@
       <div class="container">
         <img name="cMarvel" src="../img/04.jpg" alt="" />
         <div class="dados">
-        <h2>Valor do Ingresso: R$ 15,00</h2>
+        <h3>Valor do Ingresso: R$ 15,00</h3>
         <table>
             <tr><td>Sala 1</td><td>Sala 2</td></tr>
         </table>
@@ -78,6 +93,7 @@
             <option value="sala1">2D</option>
             <option value="sala1">3D</option>
         </select>
+        <a href="../index.html" style="text-decoration: none;"><h4>VOLTAR</h4></a>
     </div>       
 
     </div>
